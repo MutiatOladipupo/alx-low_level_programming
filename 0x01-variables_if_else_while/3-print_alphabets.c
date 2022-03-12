@@ -16,7 +16,8 @@ int main(void)
 	{
 	putchar(a);
 	a++;
-	} else
+	}
+       	else
 	{
 	putchar(A);
 	A++;
@@ -24,6 +25,6 @@ int main(void)
 	n++;
 	}
 	putchar('\n');
-    return (0);
+	return (0);
 }
 
