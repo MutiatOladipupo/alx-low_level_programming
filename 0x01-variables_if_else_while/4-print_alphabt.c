@@ -41,8 +41,7 @@ int main(void)
 	if (ch == 'e' || ch == 'q')
 	ch++;
 	putchar(ch);
-        
-	}
+        }
 	putchar('\n');
 
 	return 0;
