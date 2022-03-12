@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdio.h>
 /**
  * main - main block
  * Description: Get a random number and ptint the number if it is positive, negative or zero
