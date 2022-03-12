@@ -1,13 +1,16 @@
 #include <stdio.h>
 
+/**
+ * main - prints all single digit numbers of 
+ * 10 starting from 0, followed by a new line 
+ * *Return: Always 0 (Sucess)
+ */
 int main(void)
 {
-    
-    for (int i = 0; i <= 9; i++)
-    {
-        printf("%d", i);
-    }
-    printf("\n");
+	int n; 
 
-    return 0;
+	for (n = 0; n < 10; n++)
+		printf("%d", n)
+	printf("\n");
+	return (0);
 }
