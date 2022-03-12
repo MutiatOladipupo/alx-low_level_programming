@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit numbers of 
- * 10 starting from 0, followed by a new line 
- * Return: Always 0 (Sucess)
- */
+*main - prints all single digit numbers of
+*10 starting from 0, followed by a new line
+*Return: Always 0 (Sucess)
+*/
 int main(void)
 {
 	int n; 
