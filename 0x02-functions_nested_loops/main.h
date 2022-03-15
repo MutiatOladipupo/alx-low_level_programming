@@ -1,6 +1,6 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef MAIN_H
+#define MAIN_H
 
-the entire header file file
+int _putchar(char c);
 
 #endifi
