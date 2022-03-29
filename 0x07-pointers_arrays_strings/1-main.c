@@ -1,9 +1,14 @@
 0x07. C - Even more pointers, arrays and strings
  By Julien Barbier
  Weight: 1
- Ongoing project - started 03-28-2022, must end by 03-29-2022 (in about 9 hours) - you're done with 13% of tasks.
- Checker was released at 03-28-2022 12:00 PM
+ Ongoing second chance project - started Mar 28, 2022, must end by Mar 30, 2022 - you're done with 13% of tasks.
  An auto review will be launched at the deadline
+In a nutshell…
+Auto QA review: 7.0/56 mandatory & 0.0/17 optional
+Altogether:  12.5%
+Mandatory: 12.5%
+Optional: 0.0%
+Calculation:  12.5% + (12.5% * 0.0%)  == 12.5%
 Concepts
 For this project, students are expected to look at this concept:
 
@@ -47,6 +52,7 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. memset
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Write a function that fills memory with a constant byte.
 
 Prototype: char *_memset(char *s, char b, unsigned int n);
@@ -130,9 +136,10 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x07-pointers_arrays_strings
 File: 0-memset.c
-   
+    
 1. memcpy
 mandatory
+Score: 0.00% (Checks completed: 0.00%)
 Write a function that copies memory area.
 
 Prototype: char *_memcpy(char *dest, char *src, unsigned int n);
@@ -170,4 +177,21 @@ void simple_print_buffer(char *buffer, unsigned int size)
         i++;
     }
     printf("\n");
+}
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char buffer[98] = {0};
+    char buffer2[98] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
+
+    simple_print_buffer(buffer, 98);
+    _memcpy(buffer + 50, buffer2, 10);
+    printf("-------------------------------------------------\n");
+    simple_print_buffer(buffer, 98);    
+    return (0);
 }
