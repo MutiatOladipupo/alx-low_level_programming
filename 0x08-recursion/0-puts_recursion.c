@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * _puts_recursion: print a string using recursion
+ * _puts_recursion -  print a string, followed by a new line.
  *
  * @s: pointer to characters
  *
- * Return: return0
+ * Return: return 0
  */
 
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 	if (*s != '\0')
 	{
@@ -17,6 +17,7 @@ void _puts_recursion(char *s);
 	}
 
 	else
-		putchar('\n');
+		putchar('\n);
 }
+
 
