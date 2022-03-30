@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * _puts_recursion: print a string using recursion
+ * _puts_recursion: print a string using recursion, then print a new line.
  *
  * @s: pointer to characters
  *
@@ -19,4 +19,3 @@ void _puts_recursion(char *s)
 	else
 		putchar('\n');
 }
-
