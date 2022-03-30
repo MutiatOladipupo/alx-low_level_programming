@@ -2,7 +2,6 @@
 
 /**
  * _puts_recursion: print a string, then print a new line.
- *
  * @s: pointer to characters
  *
  * Return: return0
