@@ -14,6 +14,6 @@ int factorial(int n)
 		return (-1);
 	}
 
-	else (n >= 0 && n <=10)
-		return (n *= factorial (n - 1));
+	else (n >= 0 && n <=10);
+	return (n *= factorial (n - 1));
 }
