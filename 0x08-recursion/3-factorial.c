@@ -2,7 +2,7 @@
 
 /**
  * factorial - Returns the factorial of a given number.
- * @n: The given number 
+ * @n: The given number
  *
  * Return: return int
  */
@@ -14,8 +14,8 @@ int factorial(int n)
 		return (-1);
 	}
 
-	else 
+	else
 	{
-		return (n * factorial(n - 1));
+		return (n =* factorial(n - 1));
 	}
 }
