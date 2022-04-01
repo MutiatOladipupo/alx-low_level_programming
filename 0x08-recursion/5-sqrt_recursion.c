@@ -18,6 +18,6 @@ int _sqrt_recursion(int n)
 		return (1);
 	}
 
-	return (find_sqrt(n, root));
+	return (_sqrt_recursion(n, root));
 }
 
