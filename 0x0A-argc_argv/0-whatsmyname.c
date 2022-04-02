@@ -3,7 +3,7 @@
 /**
  * main - Prints the program name, followed by a new line.
  * @argc: Number of arguments supplied to the program.
- * @argv: An argument vector which is an array of strings.
+ * @argv: Array of pointers to the arguments..
  *
  * Return: Always 0.
  */
