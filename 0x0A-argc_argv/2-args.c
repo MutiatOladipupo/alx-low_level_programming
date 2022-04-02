@@ -10,9 +10,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int arg=0;
+	int arg = 0;
 
-	if (arg < argc);
+	if (arg < argc)
 	{
 		arg++;
 		printf("%s\n", argv[arg]);
