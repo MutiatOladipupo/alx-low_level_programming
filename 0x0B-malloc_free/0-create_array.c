@@ -10,8 +10,6 @@
 
 char *create_array(unsigned int size, char c)
 {
-	unsigned int n;
-
 	if (size == 0)
 
 	{
@@ -20,10 +18,7 @@ char *create_array(unsigned int size, char c)
 	}
 
 	char* A = (char*)malloc(size * sizeof(char));
-	if else
-
-	{
-		for (n = 0; n < size; n++)
+	for (n = 0; n < size; n++)
 
 		{
 			A[n] = c;
