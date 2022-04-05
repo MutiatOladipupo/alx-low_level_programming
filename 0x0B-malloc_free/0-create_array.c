@@ -23,9 +23,12 @@ char *create_array(unsigned int size, char c)
 	if (n == 0)
 
 	{
-		A[n] = c;
-		n++;
+		for (n = 0; n < size; n++)
+
+		{
+			A[n] = c;
+		}
 	}
-	
+
 	return (A);
 }
