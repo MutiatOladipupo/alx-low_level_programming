@@ -10,19 +10,21 @@
 
 char *create_array(unsigned int size, char c)
 {
+        chat *A;
+        unsigned int n = 0;
+
 	if (size == 0)
 		 
 	{
 		return (NULL);
 	}
 
-	*A = malloc(size * sizeof(char));
+	char *A = malloc(size * sizeof(char));
 
 	if (A == NULL)
 	{
 		return (NULL);
-	}
-        unsigned int n;
+        }
 	for (n = 0; n < size; n++)
 
 	{
