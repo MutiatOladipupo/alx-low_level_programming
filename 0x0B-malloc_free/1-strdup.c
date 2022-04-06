@@ -23,16 +23,18 @@ char *_strdup(char *str)
 	for (k = 0; str[k]; k++)
 		n++;
 
-	A = malloc((k + 1) * sizeof(char));
+	A = malloc((n + 1) * sizeof(char));
 
 	if (A == NULL)
 	{
 		return (NULL);
 	}
-	for (k = 0; str[k] = '\n'; k++)
+	for (n = 0; str[n] = '\0'; n++)
 
 	{
-		A[k] = str[k];
+		A[n] = str[n];
+
+		A[n] 
 	}
 	return (A);
 }
