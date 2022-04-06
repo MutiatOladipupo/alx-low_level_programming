@@ -12,7 +12,6 @@ char *_strdup(char *str);
 {
 	int n = 0;
 	int k = 0;
-	char *str;
 	char *A;
 
 	if (str = NULL)
@@ -22,6 +21,7 @@ char *_strdup(char *str);
 	}
 
 	for (k = 0; str[k]; k++)
+		n++;
 
 	A = malloc((k + 1) * sizeof(char));
 
