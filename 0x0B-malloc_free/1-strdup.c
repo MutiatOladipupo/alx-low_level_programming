@@ -8,7 +8,7 @@
  * Return: Return NULL or a pointer.
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	int n = 0;
 	int k = 0;
