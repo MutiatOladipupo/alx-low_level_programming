@@ -10,20 +10,15 @@
 void *malloc_checked(unsigned int b)
 {
 	void *A;
-	int i;
-
+	
 	A = malloc(sizeof(b));
-
-	for ((i = 0, A[i]; i++)
-
-	{
-		return (A);
-	}
 
 	if (A == NULL)
 	{
 		exit(98);
 	}
+
+	return (A);
 }
 
 			
