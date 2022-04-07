@@ -9,14 +9,8 @@
 
 void *malloc_checked(unsigned int b)
 {
-	char *A;
+	void *A;
 	unsigned int b;
-	int i;
-
-	if (A == 0)
-	{
-		A = "";
-	}
 
 	A = malloc(sizeof(b));
 
