@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - Prints the name of the file, it was compiled from.
+ * Return: Return nothing.
+ */
+
 int main(void)
 {
 	printf("%s\n", _FILE_);
