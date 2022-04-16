@@ -1,16 +1,33 @@
 #include <stdio.h>
+#include <stdarg.h>
+#include "variadic_functions.h"
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
+ * print_numbers - Print numbers
+ * @separator: char separating numbers
+ * @n: number of iterations
+ * return: Returns an int
+**/
+
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
-int numb;
-for (numb = 0; numb < 10; numb++)
+unsigned int i;
+int val;
+va_list ls;
+
+va_start(ls, n);
+
+for (i = 0; i < n; i++)
 {
-printf("%d", numb);
+val = va_arg(ls, int);
+printf("%d", val);
+if (separator != NULL)
+{
+if (i != (n - 1))
+printf("%s", separator);
+}
 }
 printf("\n");
-return (0);
+va_end(ls);
+return;
 }
