@@ -13,7 +13,7 @@ unsigned int binary_to_uint(const char *b)
 {
 	int i = 0;
 	unsigned int j = 0;
-	int base_two = 1;
+	int mult = 1;
 
 	if (b[i] == '\0')
 	return (0);
@@ -26,8 +26,8 @@ unsigned int binary_to_uint(const char *b)
 		}
 		else
 		{
-			j += b[i] * base_two;
-			base_two *= 2;
+			j += b[i] * mult;
+			mult *= 2;
 		}
 	}
 	return (j);
