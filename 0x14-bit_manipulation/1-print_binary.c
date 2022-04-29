@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio>
 #include "main.h"
 
 /**
@@ -10,15 +10,11 @@
  */
 void print_binary(unsigned long int n)
 {
-	while (n >> 0)
+	if (n >> 0)
 	{
 		if (n >> 1)
-		{
-			if (n & 1)
-			{
-				_putchar(1);
-			}
-		}
+			print_binary(n >> 1);
+		_putchar((n & 1) + '0');
 	}
 	else
 	{
