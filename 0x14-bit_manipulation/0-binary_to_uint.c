@@ -10,11 +10,11 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	int i = 0;
+	int i;
 	unsigned int j = 0;
 	int mult;
 
-	if (b[i] == '\0')
+	if (b == '\0')
 	return (0);
 
 	for (i = 0, mult = 1; b[i] != '\0'; i++, mult *= 2)
@@ -25,7 +25,7 @@ unsigned int binary_to_uint(const char *b)
 		}
 		if (b[i] == '1')
 		{
-			j += mult;
+			j += 1 * mult;
 		}
 	}
 	return (j);
